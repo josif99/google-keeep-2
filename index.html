@@ -10,31 +10,56 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
+<!-- Emmets -->
+
 <body>
     <!-- Start the heading page -->
+
     <header class="header">
-        <a href="#" class="logo">
-            <img src="images/keep_2020q4_48dp.png" alt="">
-        </a>
-        <nav class="nav">
+        <div class="header-box-1">
+            <div class="menu-btn-box">
+                <span class="material-symbols-outlined" id="menu-btn">menu</span>
+            </div>
+            <div class="google-keep-logo">
+                <img src="images/keep_2020q4_48dp.png" class="logoImg" alt="">
+                <a class="Keep-text">Keep</a>
+            </div>
+        </div>
+        <div class="header-box-2">
+            <span class="material-symbols-outlined" id="search-btn">search</span>
+            <span class="material-symbols-outlined" id="menu-refresh">refresh</span>
+            <span class="material-symbols-outlined" id="menu-view_agenda">view_agenda</span>
+            <span class="material-symbols-outlined" id="menu-settings">settings</span>
+        </div>
+        <div class="header-box-3">
+            <span class="material-symbols-outlined" id="search-apps">apps</span>
+            <img src="images/josif.jpg" class="josifImg" alt="">
+        </div>
+    </header>
+
+    <!-- END heading page -->
+
+    <script src="js/script.js"></script>
+    <main class="home" id="home">
+        <nav class="navar">
             <!-- pending add paths -->
             <a href="#">Notes</a>
             <a href="#">Reminders</a>
             <a href="#">Archive</a>
             <a href="#">Delete</a>
         </nav>
-        <div class="icons">
-            <div class="material-symbols-outlined" id="menu-btn">menu</div>
-            <div class="material-symbols-outlined" id="search-btn">search</div>
+        <h1>No slayske</h1>
+        <div class="icons-body">
             <div class="material-symbols-outlined" id="notifications-btn">notifications</div>
             <div class="material-symbols-outlined" id="edit-btn">edit</div>
             <div class="material-symbols-outlined" id="archive-btn">archive</div>
             <div class="material-symbols-outlined" id="delet-btn">delete</div>
-
         </div>
-    </header>
-    <!-- END heading page -->
-    <script src="js/script.js"></script>
+
+
+    </main>
+
+
 </body>
 
 </html>
