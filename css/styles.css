@@ -85,7 +85,15 @@ body {
     flex-grow: 10.46;
     align-items: center;
     justify-content: flex-end;
+}
 
+#search-btn {
+    padding: 0.5rem;
+    margin: 0.1875rem 0.0625rem;
+}
+
+#menu-refresh {
+    padding: 1.375rem;
 }
 
 /* box 3 */
