@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Keep 2.0</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="css/styles-header.css">
+    <link rel="stylesheet" href="css/styles-menu.css">
 </head>
 
 <!-- Emmets -->
@@ -38,27 +40,31 @@
     </header>
 
     <!-- END heading page -->
-
-    <script src="js/script.js"></script>
-    <main class="home" id="home">
-        <nav class="navar">
-            <!-- pending add paths -->
-            <a href="#">Notes</a>
-            <a href="#">Reminders</a>
-            <a href="#">Archive</a>
-            <a href="#">Delete</a>
-        </nav>
-        <h1>No slayske</h1>
-        <div class="icons-body">
-            <div class="material-symbols-outlined" id="notifications-btn">notifications</div>
-            <div class="material-symbols-outlined" id="edit-btn">edit</div>
-            <div class="material-symbols-outlined" id="archive-btn">archive</div>
-            <div class="material-symbols-outlined" id="delet-btn">delete</div>
+    <!-- Start menu responsive  -->
+    <div class="reactive-menu">
+        <div class="notes-module">
+            <div class="material-icons-outlined" id="lightbulb-btn">lightbulb</div>
+            <a class="menu-text" href="#">Notes</a>
         </div>
+        <div class="reminders-module">
+            <div class="material-symbols-outlined" id="notifications-btn">notifications</div>
+            <a class="menu-text" href="#">Reminders</a>
 
+        </div>
+        <div class="archive-module">
+            <div class="material-symbols-outlined" id="archive-btn">archive</div>
+            <a class="menu-text" href="#">Archive</a>
 
-    </main>
-
+        </div>
+        <div class="delete-module">
+            <div class="material-symbols-outlined" id="delet-btn">delete</div>
+            <a class="menu-text" href="#">Delete</a>
+        </div>
+        <div class="empty-module">
+        </div>
+    </div>
+    <!-- End menu responsive -->
+    <script src="js/script.js"></script>
 
 </body>
 

@@ -1,0 +1,62 @@
+.reactive-menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+}
+
+/* start */
+.reactive-menu .notes-module {
+    display: flex;
+    padding-left: 0.75rem;
+    height: 2.875rem;
+    width: 17.375rem;
+    align-items: center;
+}
+
+.reactive-menu .material-icons-outlined {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.reactive-menu .material-symbols-outlined {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.reactive-menu .menu-text {
+    margin-left: 1.25rem;
+    font-size: 0.875rem;
+}
+
+
+/* end */
+/* start */
+.reactive-menu .reminders-module {
+    display: flex;
+    padding-left: 0.75rem;
+    height: 2.875rem;
+    width: 17.375rem;
+    align-items: center;
+}
+
+/* end */
+/* start */
+.reactive-menu .archive-module {
+    display: flex;
+    padding-left: 0.75rem;
+    height: 2.875rem;
+    width: 17.375rem;
+    align-items: center;
+}
+
+/* end */
+/* start */
+.reactive-menu .delete-module {
+    display: flex;
+    padding-left: 0.75rem;
+    height: 2.875rem;
+    width: 17.375rem;
+    align-items: center;
+}
+
+/* end */
